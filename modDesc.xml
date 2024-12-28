@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="93">
+    <author>upsidedown</author>
+	
+	<version>2.0.0.0</version>
+	<title>
+        <en>Telemetry FillLevel Addon</en>
+    </title>
+
+    <description>
+        <en>
+<![CDATA[
+	Simple example to illustrate how to add data to telemetry for vehicle and implements. This example uses the FillLevel data, which is not handled by the telemetry base mod. However processing of mod specific data can be handled in exactly the same way with similar addon mods.
+]]></en>
+        <de>
+<![CDATA[ Einfaches Beispiel, wie man zusätzliche Daten für den Telemetry-Mod für das aktuelle Fahrzeug samt Anhängern und Anbaugeräten zur Verfügung stellt. Das Beispiel nimmt hierfür die Füllstände, die im Basismod nicht erfasst werden. Es können allerdings auch Mod-spezifische Daten mit solchen Addons verwendet werden.
+]]></de>
+    </description> 
+
+    <iconFilename>Telemetry_FillLevel_Addon_icon.dds</iconFilename>
+	<multiplayer supported="true" />
+    <extraSourceFiles>
+        <sourceFile filename="Telemetry_FillLevel_Addon.lua" />
+    </extraSourceFiles>
+	
+
+
+	<actions>
+        
+    </actions>
+	<inputBinding>
+		
+	</inputBinding>
+	
+</modDesc>
